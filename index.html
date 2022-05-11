@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="https://img.icons8.com/fluency/48/000000/valet-parking.png" type="image/x-icon">
+
+  <title>Estacionamento</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div id="logo">
+      <img src="./imgs/Estacionamento.png" alt="logo">
+    </div>
+
+    <div id="info">
+      <div id="inputs">
+        <input type="text" id="nome" placeholder="Digite o nome do veículo" autocomplete="off">
+        <input type="text" id="placa" placeholder="Digite a placa do veículo" autocomplete="off">
+      </div>
+      <button id="cadastrar">Cadastrar</button> <br><br>
+   </div>
+
+   <div id="dados">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Placa</th>
+            <th>Entrada</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="patio"></tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
